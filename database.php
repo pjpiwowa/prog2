@@ -4,10 +4,10 @@ require 'config.php';
 
 class Database
 {
-	private static $dbName = "pjpiwowa";
-	private static $dbHost  = "localhost";
-	private static $dbUsername = "pjpiwowa";
-	private static $dbUserPassword = "92dementedlemurs";
+	private static $dbName = "";
+	private static $dbHost  = "";
+	private static $dbUsername = "";
+	private static $dbUserPassword = "";
 
 	private static $cont  = null;
 	
