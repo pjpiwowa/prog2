@@ -29,7 +29,7 @@ if ($_POST)
 	if ($line && password_verify($password, $line['password']))
 	{
 		$_SESSION['auth'] = true;
-		header("Location: index.php?" . htmlspecialchars(SID));
+		header("Location: index.php");
 	}
 	else
 	{
