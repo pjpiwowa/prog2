@@ -16,6 +16,7 @@
 
 	<div class="row">
 		<p>
+			<a href="https://github.com/pjpiwowa/prog2" class="btn">Source Code</a>
 			<a href="create.php" class="btn btn-success">Create</a>
 			<a href="logout.php" class="btn btn-danger">Logout</a>
 		</p>

@@ -54,12 +54,14 @@ if ($_POST)
 
 <h1>Log In</h1>
 
+<a href="https://github.com/pjpiwowa/prog2" class="btn">Source Code</a>
+
 <form class="form-horizontal" action="login.php" method="post">
 	<?php if (isset($err)) { echo "<p>$err</p>"; } ?>
 	<input name="username" type="text" placeholder="your username" required />
 	<input name="password" type="password" required />
 	<input type="submit" />
-	<a href="register.php">Register</a>
+	<a href="register.php" class="btn">Register</a>
 </form>
 
 </body>
